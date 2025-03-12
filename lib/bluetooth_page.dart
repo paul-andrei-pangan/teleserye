@@ -116,7 +116,7 @@ class _BluetoothSettingsPageState extends State<BluetoothSettingsPage> {
                     children: [
                       CupertinoActivityIndicator(),
                       SizedBox(height: 10),
-                      Text("Searching for devices...", style: TextStyle(color: CupertinoColors.systemGrey)),
+                      Text("",style: TextStyle(color: CupertinoColors.systemGrey)),
                     ],
                   ),
                 ),
