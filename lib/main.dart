@@ -113,7 +113,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     ),
                   ),
                   CupertinoListTile(
-                    title: const Text("Wi-fi"),
+                    title: const Text("WLAN"),
                     leading: buildIcon(CupertinoIcons.wifi, CupertinoColors.systemBlue),
                     subtitle: connectedWifi != null
                         ? Text("Connected to $connectedWifi", style: const TextStyle(color: CupertinoColors.systemGrey))
